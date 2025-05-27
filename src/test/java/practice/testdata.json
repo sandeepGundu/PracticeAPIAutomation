@@ -1,0 +1,86 @@
+[
+  {
+    "id": 123,
+    "name": "Pankaj",
+    "permanent": true,
+    "address": {
+      "street": "Albany Dr",
+      "city": "San Jose",
+      "zipcode": 95129
+    },
+    "phoneNumbers": [
+      123456,
+      987654
+    ],
+    "role": "Manager",
+    "cities": [
+      "Los Angeles",
+      "New York"
+    ],
+    "properties": {
+      "age": "29 years",
+      "salary": "20000 USD"
+    }
+  },
+  {
+    "id": 456,
+    "name": "Panav",
+    "permanent": true,
+    "address": {
+      "street": "yyyy Dr",
+      "city": "San yyyy",
+      "zipcode": 95129
+    },
+    "phoneNumbers": [
+      654321,
+      456789
+    ],
+    "role": "Developer",
+    "cities": [
+      "YYY Angeles",
+      "Net York"
+    ],
+    "properties": {
+      "age": "19 years",
+      "salary": "1500 USD"
+    }
+  },
+  {
+    "id": 678,
+    "name": "Pramod",
+    "permanent": true,
+    "address": {
+      "street": "xxxx Dr",
+      "city": "San Fansisco",
+      "zipcode": 12312
+    },
+    "phoneNumbers": [
+      112233,
+      334455
+    ],
+    "role": "HR",
+    "cities": [
+      "Los xxxx",
+      "New York"
+    ],
+    "properties": {
+      "age": "39 years",
+      "salary": "10000 USD"
+    }
+  }
+]
+
+{
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "New product One",
+      "price": 19.19,
+      "description": "A new product for testing purpose",
+      "category": "electronic",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}

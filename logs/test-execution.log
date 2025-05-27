@@ -1,0 +1,834 @@
+2025-05-26 12:39:51 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products
+2025-05-26 12:39:51 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products
+2025-05-26 12:39:51 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/products
+2025-05-26 12:39:53 [main] INFO  stepdefinitions.CreateProductSteps - Content-Type: application/json; charset=utf-8
+2025-05-26 12:50:04 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products
+2025-05-26 12:50:04 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products
+2025-05-26 12:50:04 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/products
+2025-05-26 12:50:06 [main] INFO  stepdefinitions.CreateProductSteps - Content-Type: application/json; charset=utf-8
+2025-05-26 12:50:06 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 12:50:07 [main] INFO  stepdefinitions.CreateProductSteps - product id: 1
+2025-05-26 12:51:33 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products
+2025-05-26 12:51:33 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products
+2025-05-26 12:51:33 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/products
+2025-05-26 12:51:35 [main] INFO  stepdefinitions.CreateProductSteps - Content-Type: application/json; charset=utf-8
+2025-05-26 12:51:35 [main] INFO  stepdefinitions.CreateProductSteps - Raw Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg","rating":{"rate":3.9,"count":120}}
+2025-05-26 12:51:35 [main] INFO  stepdefinitions.CreateProductSteps - DEBUG Parsed Response Body: {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+2025-05-26 12:51:35 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 12:51:35 [main] INFO  stepdefinitions.CreateProductSteps - product id: 1
+2025-05-26 12:53:06 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 12:53:06 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 12:53:06 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 12:53:08 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 12:53:08 [main] INFO  stepdefinitions.CartsSteps - List of cart ids: [1, 2, 3, 4, 5, 6, 7]
+2025-05-26 12:53:33 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 12:53:33 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 12:53:33 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 12:53:35 [main] INFO  stepdefinitions.CreateProductSteps - Response Body: [
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+2025-05-26 12:53:35 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 12:53:35 [main] INFO  stepdefinitions.CartsSteps - List of cart ids: [1, 2, 3, 4, 5, 6, 7]
+2025-05-26 13:10:44 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:10:44 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 13:10:44 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:10:44 [main] INFO  stepdefinitions.CreateProductSteps - Request Body Before POST: {
+  "id": 7,
+  "userId": 4,
+  "date": "2021-03-02T00:00:00.000Z",
+  "products": [
+      {
+          "productId": 1,
+          "quantity": 7
+      },
+      {
+          "productId": 7,
+          "quantity": 10
+      },
+      {
+          "productId": 8,
+          "quantity": 6
+      }
+  ],
+  "__v": 0
+}
+2025-05-26 13:10:46 [main] INFO  stepdefinitions.CreateProductSteps - Response Body: {
+    "id": 11,
+    "userId": 4,
+    "date": "2021-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 7
+        },
+        {
+            "productId": 7,
+            "quantity": 10
+        },
+        {
+            "productId": 8,
+            "quantity": 6
+        }
+    ]
+}
+2025-05-26 13:10:46 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 13:10:46 [main] INFO  stepdefinitions.CartsSteps - Validating the response...
+2025-05-26 13:12:36 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:12:36 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 13:12:36 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:12:36 [main] INFO  stepdefinitions.CreateProductSteps - Request Body Before POST: {
+  "id": 7,
+  "userId": 4,
+  "date": "2021-03-02T00:00:00.000Z",
+  "products": [
+      {
+          "productId": 1,
+          "quantity": 7
+      },
+      {
+          "productId": 7,
+          "quantity": 10
+      },
+      {
+          "productId": 8,
+          "quantity": 6
+      }
+  ],
+  "__v": 0
+}
+2025-05-26 13:12:38 [main] INFO  stepdefinitions.CreateProductSteps - Response Body: {
+    "id": 11,
+    "userId": 4,
+    "date": "2021-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 7
+        },
+        {
+            "productId": 7,
+            "quantity": 10
+        },
+        {
+            "productId": 8,
+            "quantity": 6
+        }
+    ]
+}
+2025-05-26 13:12:38 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 13:12:38 [main] INFO  stepdefinitions.CartsSteps - Validating the response...
+2025-05-26 13:12:38 [main] INFO  stepdefinitions.CartsSteps - Expected ProductId: 1
+2025-05-26 13:12:38 [main] INFO  stepdefinitions.CartsSteps - Expected Product Quantity: 7
+2025-05-26 13:12:38 [main] INFO  stepdefinitions.CartsSteps - Actual ProductId: 1
+2025-05-26 13:12:38 [main] INFO  stepdefinitions.CartsSteps - Actual Product Quantity: 7
+2025-05-26 13:12:38 [main] INFO  stepdefinitions.CartsSteps - Price validation successful!
+2025-05-26 13:17:33 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:17:33 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 13:17:33 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:17:33 [main] INFO  stepdefinitions.CreateProductSteps - Request Body Before POST: {
+  "id": 7,
+  "userId": 4,
+  "date": "2021-03-02T00:00:00.000Z",
+  "products": [
+      {
+          "productId": 1,
+          "quantity": 7
+      },
+      {
+          "productId": 7,
+          "quantity": 10
+      },
+      {
+          "productId": 8,
+          "quantity": 6
+      }
+  ],
+  "__v": 0
+}
+2025-05-26 13:18:00 [main] INFO  stepdefinitions.CreateProductSteps - Response Body: {
+    "id": 11,
+    "userId": 4,
+    "date": "2021-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 7
+        },
+        {
+            "productId": 7,
+            "quantity": 10
+        },
+        {
+            "productId": 8,
+            "quantity": 6
+        }
+    ]
+}
+2025-05-26 13:18:00 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 13:18:00 [main] INFO  stepdefinitions.CartsSteps - Validating the response...
+2025-05-26 13:18:05 [main] INFO  stepdefinitions.CartsSteps - Actual Product Count3
+2025-05-26 13:18:17 [main] INFO  stepdefinitions.CartsSteps - Expected ProductId: 1
+2025-05-26 13:18:17 [main] INFO  stepdefinitions.CartsSteps - Expected Product Quantity: 7
+2025-05-26 13:18:17 [main] INFO  stepdefinitions.CartsSteps - Actual ProductId: 1
+2025-05-26 13:18:17 [main] INFO  stepdefinitions.CartsSteps - Actual Product Quantity: 7
+2025-05-26 13:18:18 [main] INFO  stepdefinitions.CartsSteps - Expected ProductId: 7
+2025-05-26 13:18:19 [main] INFO  stepdefinitions.CartsSteps - Expected Product Quantity: 10
+2025-05-26 13:18:19 [main] INFO  stepdefinitions.CartsSteps - Actual ProductId: 7
+2025-05-26 13:18:19 [main] INFO  stepdefinitions.CartsSteps - Actual Product Quantity: 10
+2025-05-26 13:18:22 [main] INFO  stepdefinitions.CartsSteps - Expected ProductId: 8
+2025-05-26 13:18:22 [main] INFO  stepdefinitions.CartsSteps - Expected Product Quantity: 6
+2025-05-26 13:18:22 [main] INFO  stepdefinitions.CartsSteps - Actual ProductId: 8
+2025-05-26 13:18:22 [main] INFO  stepdefinitions.CartsSteps - Actual Product Quantity: 6
+2025-05-26 13:18:22 [main] INFO  stepdefinitions.CartsSteps - Product validation successful!
+2025-05-26 13:29:34 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:29:34 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 13:29:34 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:29:37 [main] INFO  stepdefinitions.CreateProductSteps - Content-Type: application/json; charset=utf-8
+2025-05-26 13:29:37 [main] INFO  stepdefinitions.CreateProductSteps - Raw Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2025-05-26 13:29:37 [main] INFO  stepdefinitions.CreateProductSteps - DEBUG Parsed Response Body: {
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+2025-05-26 13:29:37 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 13:30:58 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:30:58 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 13:30:58 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:31:01 [main] INFO  stepdefinitions.CreateProductSteps - Content-Type: application/json; charset=utf-8
+2025-05-26 13:31:01 [main] INFO  stepdefinitions.CreateProductSteps - Raw Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2025-05-26 13:31:01 [main] INFO  stepdefinitions.CreateProductSteps - DEBUG Parsed Response Body: {
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+2025-05-26 13:31:01 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 13:31:02 [main] INFO  stepdefinitions.CartsSteps - Cart id: 1
+2025-05-26 13:31:35 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:31:35 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 13:31:35 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 13:31:39 [main] INFO  stepdefinitions.CreateProductSteps - Content-Type: application/json; charset=utf-8
+2025-05-26 13:31:39 [main] INFO  stepdefinitions.CreateProductSteps - Raw Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2025-05-26 13:31:39 [main] INFO  stepdefinitions.CreateProductSteps - DEBUG Parsed Response Body: {
+    "id": 5,
+    "userId": 3,
+    "date": "2020-03-01T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 7,
+            "quantity": 1
+        },
+        {
+            "productId": 8,
+            "quantity": 1
+        }
+    ],
+    "__v": 0
+}
+2025-05-26 13:31:39 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 13:31:40 [main] INFO  stepdefinitions.CartsSteps - Cart id: 5
+2025-05-26 15:50:19 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 15:50:20 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products/5
+2025-05-26 15:50:20 [main] INFO  stepdefinitions.UpdateProductSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 15:50:20 [main] INFO  stepdefinitions.UpdateProductSteps - Request Body Before POST: {
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Updated product",
+      "price": 49.99,
+      "description": "A new product for testing purpose",
+      "category": "electronics",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}
+2025-05-26 15:50:23 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 15:57:12 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 15:57:12 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products/5
+2025-05-26 15:57:12 [main] INFO  stepdefinitions.UpdateProductSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 15:57:12 [main] INFO  stepdefinitions.UpdateProductSteps - Request Body Before POST: {
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Updated product",
+      "price": 49.99,
+      "description": "A new product for testing purpose",
+      "category": "electronics",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}
+2025-05-26 15:57:14 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 15:57:56 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 15:57:56 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products/5
+2025-05-26 15:57:56 [main] INFO  stepdefinitions.UpdateProductSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 15:57:56 [main] INFO  stepdefinitions.UpdateProductSteps - Request Body Before POST: {
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Updated product",
+      "price": 49.99,
+      "description": "A new product for testing purpose",
+      "category": "electronics",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}
+2025-05-26 15:57:59 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:01:40 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:01:40 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products/5
+2025-05-26 16:01:40 [main] INFO  stepdefinitions.UpdateProductSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:01:40 [main] INFO  stepdefinitions.UpdateProductSteps - Request Body Before POST: {
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Updated product",
+      "price": 49.99,
+      "description": "A new product for testing purpose",
+      "category": "electronics",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}
+2025-05-26 16:01:48 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:02:31 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:02:31 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products/5
+2025-05-26 16:02:31 [main] INFO  stepdefinitions.UpdateProductSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:02:31 [main] INFO  stepdefinitions.UpdateProductSteps - Request Body Before POST: {
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Updated product",
+      "price": 49.99,
+      "description": "A new product for testing purpose",
+      "category": "electronics",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}
+2025-05-26 16:02:38 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:08:11 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:08:11 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products/5
+2025-05-26 16:08:11 [main] INFO  stepdefinitions.UpdateProductSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:08:11 [main] INFO  stepdefinitions.UpdateProductSteps - Request Body Before POST: {
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Updated product",
+      "price": 49.99,
+      "description": "A new product for testing purpose",
+      "category": "electronics",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}
+2025-05-26 16:08:21 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:13:32 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:13:32 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products/5
+2025-05-26 16:13:32 [main] INFO  stepdefinitions.UpdateProductSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:13:32 [main] INFO  stepdefinitions.UpdateProductSteps - Request Body Before POST: {
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Updated product",
+      "price": 49.99,
+      "description": "A new product for testing purpose",
+      "category": "electronics",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}
+2025-05-26 16:13:40 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:14:10 [main] INFO  stepdefinitions.CartsSteps - Response Body: {
+    "id": 5
+}
+2025-05-26 16:18:51 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:18:51 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products/5
+2025-05-26 16:18:51 [main] INFO  stepdefinitions.UpdateProductSteps - Full Endpoint: https://fakestoreapi.com/products/5
+2025-05-26 16:18:51 [main] INFO  stepdefinitions.UpdateProductSteps - Request Body Before POST: {
+  "id": 5,
+  "userId": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Updated product",
+      "price": 49.99,
+      "description": "A new product for testing purpose",
+      "category": "electronics",
+      "image": "http://i.pravatar.cc"
+    }
+  ]
+}
+2025-05-26 16:18:57 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:19:02 [main] INFO  stepdefinitions.CartsSteps - Response Body: {
+    "id": 5
+}
+2025-05-26 16:25:02 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 16:25:02 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts/1
+2025-05-26 16:25:02 [main] INFO  stepdefinitions.DeleteProductSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 16:25:02 [main] INFO  stepdefinitions.DeleteProductSteps - Request Body Before POST: null
+2025-05-26 16:25:05 [main] INFO  stepdefinitions.DeleteProductSteps - Response Body: {
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+2025-05-26 16:25:05 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:27:20 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 16:27:20 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 16:27:20 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 16:27:23 [main] INFO  stepdefinitions.CreateProductSteps - Response Body: [
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+2025-05-26 16:27:23 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:27:24 [main] INFO  stepdefinitions.CartsSteps - List of cart ids: [1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:27:24 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 16:27:24 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 16:27:24 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CreateProductSteps - Content-Type: application/json; charset=utf-8
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CreateProductSteps - Raw Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CreateProductSteps - DEBUG Parsed Response Body: {
+    "id": 5,
+    "userId": 3,
+    "date": "2020-03-01T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 7,
+            "quantity": 1
+        },
+        {
+            "productId": 8,
+            "quantity": 1
+        }
+    ],
+    "__v": 0
+}
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CartsSteps - Cart id: 5
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CreateProductSteps - Request Body Before POST: {
+  "id": 7,
+  "userId": 4,
+  "date": "2021-03-02T00:00:00.000Z",
+  "products": [
+      {
+          "productId": 1,
+          "quantity": 7
+      },
+      {
+          "productId": 7,
+          "quantity": 10
+      },
+      {
+          "productId": 8,
+          "quantity": 6
+      }
+  ],
+  "__v": 0
+}
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CreateProductSteps - Response Body: {
+    "id": 11,
+    "userId": 4,
+    "date": "2021-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 7
+        },
+        {
+            "productId": 7,
+            "quantity": 10
+        },
+        {
+            "productId": 8,
+            "quantity": 6
+        }
+    ]
+}
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CartsSteps - Validating the response...
+2025-05-26 16:27:25 [main] INFO  stepdefinitions.CartsSteps - Actual Product Count: 3
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Expected ProductId: 1
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Expected Product Quantity: 7
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Actual ProductId: 1
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Actual Product Quantity: 7
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Expected ProductId: 7
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Expected Product Quantity: 10
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Actual ProductId: 7
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Actual Product Quantity: 10
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Expected ProductId: 8
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Expected Product Quantity: 6
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Actual ProductId: 8
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Actual Product Quantity: 6
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CartsSteps - Product validation successful!
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/carts/1
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.DeleteProductSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 16:27:26 [main] INFO  stepdefinitions.DeleteProductSteps - Request Body Before POST: {
+  "id": 7,
+  "userId": 4,
+  "date": "2021-03-02T00:00:00.000Z",
+  "products": [
+      {
+          "productId": 1,
+          "quantity": 7
+      },
+      {
+          "productId": 7,
+          "quantity": 10
+      },
+      {
+          "productId": 8,
+          "quantity": 6
+      }
+  ],
+  "__v": 0
+}
+2025-05-26 16:27:27 [main] INFO  stepdefinitions.DeleteProductSteps - Response Body: {
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+2025-05-26 16:27:27 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 17:27:37 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 17:27:37 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 17:27:37 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 17:27:37 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 17:30:36 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 17:39:37 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 17:41:06 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 17:57:38 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts/1
+2025-05-26 18:12:23 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/products
+2025-05-26 18:12:23 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint Set: https://fakestoreapi.com/products
+2025-05-26 18:12:23 [main] INFO  stepdefinitions.CreateProductSteps - Full Endpoint: https://fakestoreapi.com/products
+2025-05-26 18:12:23 [main] INFO  stepdefinitions.CreateProductSteps - Request Body Before POST: {
+  "title": "New Product",
+  "price": 19.99,
+  "description": "A new product for testing",
+  "category": "electronics"
+}
+2025-05-26 18:12:26 [main] INFO  stepdefinitions.CreateProductSteps - Response Body: {
+    "id": 21,
+    "title": "New Product",
+    "price": 19.99,
+    "description": "A new product for testing",
+    "category": "electronics"
+}
+2025-05-26 18:12:26 [main] INFO  stepdefinitions.ValidationSteps - Response Status Code: 200
+2025-05-26 18:12:26 [main] INFO  stepdefinitions.CreateProductSteps - Validating the response...
+2025-05-26 18:12:26 [main] INFO  stepdefinitions.CreateProductSteps - Product expected price: 19.99
+2025-05-26 18:12:26 [main] INFO  stepdefinitions.CreateProductSteps - Product expected title: New Product
+2025-05-26 18:12:26 [main] INFO  stepdefinitions.CreateProductSteps - Product actual price: 19.99
+2025-05-26 18:12:26 [main] INFO  stepdefinitions.CreateProductSteps - Product actual title: New Product
+2025-05-26 18:12:26 [main] INFO  stepdefinitions.CreateProductSteps - Price validation successful!
+2025-05-26 19:33:14 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 19:33:14 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 19:33:14 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts
+2025-05-26 19:33:14 [main] INFO  stepdefinitions.CommonSteps - Full Endpoint: https://fakestoreapi.com/carts/1
