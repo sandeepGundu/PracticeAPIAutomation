@@ -55,4 +55,16 @@ public class FilterSteps
         ExtentReportUtils.logInfo("All objects in the array have the key '" + key + "' with value '" + expectedValue + "'");
     }
 
+    @Then("the response body should contain an error message indicating {string}")
+    public void theResponseBodyShouldContainAnErrorMessageIndicating(String expectedErrorMessage) {
+        Response response = sharedState.getResponse();
+        String responseBody = response.getBody().asString();
+
+        assertTrue(responseBody.contains(expectedErrorMessage),
+                "Expected error message not found in the response body! Expected: " + expectedErrorMessage);
+
+        logger.info("Response body contains the expected error message: " + expectedErrorMessage);
+        ExtentReportUtils.logInfo("Response body contains the expected error message: " + expectedErrorMessage);
+    }
+
 }
