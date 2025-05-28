@@ -44,13 +44,14 @@ Feature: Public API Testing - POST Request
 
   Scenario: Verify the API supports POST requests with valid data
     Given the API endpoint "https://api.example.com/v1/resources" is available
-    When I send a POST request to the endpoint with the following JSON payload:
-      """
+    And the request payload is:
+    """
       {
         "name": "Sample Resource",
         "type": "example"
       }
       """
+    When I send a POST request to the endpoint with the payload
     Then the response status code should be 201
     And the response body should contain a JSON object with the key "id"
     And the "id" value should be a positive integer
